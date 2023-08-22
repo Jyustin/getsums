@@ -7,4 +7,4 @@ title: Student Blog
 
 
 
-![image]({{site.baseurl}}/images/Pills.png)
+![image]({{site.baseurl}}/images/me2.png)
