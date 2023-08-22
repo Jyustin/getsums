@@ -9,8 +9,8 @@
     width: auto;
     height: auto;
     border-radius: 10px;
-    background-color: #afd643;
-    border: 3px solid black;
+    background-color: #f3f56d;
+    border: 3px solid rgb(255, 0, 179);
     font-size: 1.5em;
 
     display: flex;
@@ -31,7 +31,7 @@
 
    /* darkens the background color on hover to create a selecting effect */
   .button:hover {
-    background-color: #bb76b7;
+    background-color: #daa5d7;
   }
 
   /* "row style" is flexible size and aligns pictures in center */

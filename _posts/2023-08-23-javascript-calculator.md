@@ -70,6 +70,8 @@ HTML implementation of the calculator.
       <div class="calculator-clear">A/C</div>
       <div class="calculator-number">0</div>
       <div class="calculator-number">.</div>
+      <div class="calculator-operation">/</div>
+      <div class="calculator-operation">^</div>
       <div class="calculator-equals">=</div>
   </div>
 </div>
@@ -150,6 +152,9 @@ function calculate (first, second) { // function to calculate the result of the 
             break;
         case "/":
             result = first / second;
+            break;
+        case "^":
+            result = first ** second;
             break;
         default: 
             break;
