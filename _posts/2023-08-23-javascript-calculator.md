@@ -9,6 +9,7 @@ courses: { csse: {week: 8}, csp: {week: 4, categories: [2.C]}, csa: {week: 0} }
 type: ccc
 ---
 
+
 <!-- 
 Hack 0: Right justify result
 Hack 1: Test conditions on small, big, and decimal numbers, report on findings. Fix issues.
@@ -72,6 +73,7 @@ HTML implementation of the calculator.
       <div class="calculator-number">.</div>
       <div class="calculator-operation">/</div>
       <div class="calculator-operation">^</div>
+      <div class="calculator-operation">root</div>
       <div class="calculator-equals">=</div>
   </div>
 </div>
@@ -155,6 +157,9 @@ function calculate (first, second) { // function to calculate the result of the 
             break;
         case "^":
             result = first ** second;
+            break;
+        case "root":
+            result = first ** (1/second);
             break;
         default: 
             break;
