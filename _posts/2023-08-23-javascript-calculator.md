@@ -40,6 +40,7 @@ HTML implementation of the calculator.
     border-radius: 10px;
     padding: 0.25em;
     font-size: 20px;
+    color: white;
     border: 5px solid black;
   
     display: flex;
