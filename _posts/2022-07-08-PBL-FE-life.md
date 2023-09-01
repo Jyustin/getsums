@@ -13,6 +13,7 @@ type: hacks
 <style>
     .grid-container {
         display: grid;
+
     }
 
     .cell {
@@ -31,6 +32,9 @@ type: hacks
     <button onclick="start()" id="start-btn">Start</button>
     <button onclick="step()">Step</button>
     <!-- Container drawn by JavaScript -->
+</div>
+
+<div class="grid-container">
     <div id="container" class="grid-container py-4">
     </div>
 </div>
@@ -38,7 +42,7 @@ type: hacks
 <script>
 
 // Constants
-let GRID_SIZE = 40;
+let GRID_SIZE = 10;
 let CELL_SIZE = "15px";
 let container = document.getElementById("container");
 
