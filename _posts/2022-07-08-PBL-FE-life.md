@@ -1,6 +1,6 @@
 ---
 title: Game of Life
-layout: post
+layout: base
 description: A remix of Conway's game of life using timer, onclick and algorithms.
 categories: [C1.0]
 courses: {csa: {week: 2} }
@@ -42,7 +42,7 @@ type: hacks
 <script>
 
 // Constants
-let GRID_SIZE = 10;
+let GRID_SIZE = 40;
 let CELL_SIZE = "15px";
 let container = document.getElementById("container");
 
