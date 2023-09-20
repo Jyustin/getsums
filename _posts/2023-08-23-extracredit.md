@@ -30,6 +30,8 @@ type: hacks
 
 -use linkedin to search for internships. Go into community, use connections, get referrals out, get resume out there. Look at UC handshake? 
 
+-also could potentially cold email/message linkedin connections and local companies, maybe it could work?
+
 # TAKE AWAY
 
 TO SUCCEED IN CS, YOU MUST DO MORE THAN "get gud GPA" and "learn in class". GRIND LEETCODE AND MAKE A PERSONAL PROJECT OR TWO. I should be good
