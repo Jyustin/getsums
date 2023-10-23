@@ -8,11 +8,11 @@ Unit2:
   title: Java Mini-labs
   description: 
   start: 4
-  end: 7
+  end: 8
 Unit3:
   title:  Individual/Team Projects and N@tM
   description: 
-  start: 8
+  start: 9
   end: 12
 Unit4:
   title: College Board Teaching and Study 
@@ -27,6 +27,7 @@ Unit5:
 Unit6:
   title: Creative Development and N@tM
   description: 
+  start: 21
   end: 24
 Unit7: 
   title: Data Structures
@@ -36,6 +37,7 @@ Unit7:
 Unit8:
   title: AP Weeks
   description: 
+  start: 30
   end: 32
 Unit9:
   title: Final Project and N@tM
