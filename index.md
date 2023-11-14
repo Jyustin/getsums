@@ -1,18 +1,16 @@
 ---
 layout: default
-title: Student Blog
+title: Personal blog 
 ---
 
-## Justin Nguyen's AP CSA blog
+## Welcome to my blog!
 
-
-
-![image]({{site.baseurl}}/images/me2.png)
+![image]({{site.baseurl}}/images/hii.png)
 
 <html>
   <body>
-    <button onclick="window.location.href='https://archive.org/';">
+   <!-- <button onclick="window.location.href='https://archive.org/';">
       Click Here to go to the internet archive (plz consider donating!)
-    </button>
+    </button> -->
   </body>
 </html>
