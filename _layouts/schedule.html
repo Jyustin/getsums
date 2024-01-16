@@ -41,14 +41,14 @@ Load all posts with site
 
 <table>
   <tr>
-    <th>Week</th>
+    <th>row</th>
     <th>Plans</th>
     <th>Hacks(Todo)</th>
     <th>Tangibles</th>
   </tr>
 
   {%comment%} 
-  <!-- These loops group blogs according to Row (week) and Column (category) 
+  <!-- These loops group blogs according to Row (row) and Column (category) 
     units = empty array
     sym = value to be used as a separator
     deli = sym forced to array
@@ -74,14 +74,14 @@ Load all posts with site
   {%comment%} 
   <!-- prepare data blog post data for evaluation -->
   {%endcomment%}
-        {% assign week = post.courses[page.course].week | tangibles: 0 %}
+        {% assign row = post.courses[page.course].row | tangibles: 0 %}
         {% assign title = post.title | compact %}
         {% assign url = post.url | compact %}
   
   {%comment%} 
-  <!-- process posts for current week -->
+  <!-- process posts for current row -->
   {%endcomment%}
-        {% if week == index %} 
+        {% if row == index %} 
 
   {%comment%} 
   <!-- organizing blogs by type -->

@@ -5,7 +5,7 @@ title: Personal blog
 
 ## Welcome to my blog!
 
-![image]({{site.baseurl}}/images/hii.png)
+![image]({{site.baseurl}}/images/sun.gif  )
 
 <html>
   <body>
